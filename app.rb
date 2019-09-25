@@ -13,7 +13,7 @@ get '/goodbye' do
 end
 
 get '/date' do
-  @date = 
+  @date = "Wednesday, September 25, 2019"
   erb :date
 end
 end

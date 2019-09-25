@@ -12,6 +12,6 @@ get '/goodbye' do
 end
 
 get '/date' do 
-  erb :goodbye
+  erb :date
 end
 end

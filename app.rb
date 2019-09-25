@@ -8,7 +8,7 @@ get '/hello' do
 		erb :hello
 	end
 get '/goodbye' do 
-  <%= @bye = "Goodbye Joe" %>
+  @bye = "Goodbye Joe"
   erb :goodbye
 end
 
